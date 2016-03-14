@@ -2,24 +2,23 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.ent4j.archetype.desktop</groupId>
   <artifactId>ent4j-archetype-desktop</artifactId>
   <version>0.1.0</version>
-  <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
   <build>
     <finalName>ent4j-archetype-desktop</finalName>
   </build>
-  <packaging>maven-plugin</packaging>
   <dependencies>
   	<dependency>
   		<groupId>org.apache.maven</groupId>
   		<artifactId>maven-plugin-api</artifactId>
   		<version>3.2.2</version>
-  		<type>pom.lastUpdated</type>
   	</dependency>
   </dependencies>
+  <packaging>maven-plugin</packaging>
+  <parent>
+  	<relativePath>../ent4j-archetype-parent</relativePath>
+  	<artifactId>ent4j-archetype-parent</artifactId>
+  	<version>0.1.0</version>
+  	<groupId>org.ent4j.archetype</groupId>
+  </parent>
 </project>
