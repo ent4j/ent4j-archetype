@@ -1,0 +1,22 @@
+<archetype-catalog>
+  <archetypes>
+    <archetype>
+      <groupId>org.ent4j.archetype</groupId>
+      <artifactId>ent4j-archetype-batch</artifactId>
+      <version>0.1.0</version>
+      <description>Blank Project for Batch application</description>
+    </archetype>
+    <archetype>
+      <groupId>org.ent4j.archetype</groupId>
+      <artifactId>ent4j-archetype-desktop</artifactId>
+      <version>0.1.0</version>
+      <description>Blank Project for Desktop application</description>
+    </archetype>
+    <archetype>
+      <groupId>org.ent4j.archetype</groupId>
+      <artifactId>ent4j-archetype-print</artifactId>
+      <version>0.1.0</version>
+      <description>Blank Project for Report</description>
+    </archetype>
+  </archetypes>
+</archetype-catalog>
