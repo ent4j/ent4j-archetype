@@ -1,0 +1,14 @@
+<archetype>
+  <id>maven-archetype-sample</id>
+  <sources>
+    <source>src/main/java/MyJasperGenerator.java</source>
+    <source>src/main/java/FamilyDTO.java</source>
+    <source>src/main/java/MyCreatePdf.java</source>
+    </sources>
+  <resources>
+     <resource>src/main/resources/fonts/ipaexm.xml</resource>
+     <resource>src/main/resources/jasperreports_extension.properties</resource>
+     <resource>src/main/resources/SampleReport.jrxml</resource>
+     <filtering>false</filtering>
+  </resources>
+</archetype>
