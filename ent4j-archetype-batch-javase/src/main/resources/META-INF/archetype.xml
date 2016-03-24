@@ -1,0 +1,12 @@
+<archetype>
+  <id>ent4j-archetype-batch-war</id>
+  <sources>
+    <source>src/main/java/batch/batchlet/SimpleBatchlet.java</source>
+    </sources>
+  <resources>
+     <resource>src/main/resources/META-INF/batch-jobs/SimpleBatch.xml</resource>
+     <resource>src/main/resources/META-INF/persistence.xml</resource>
+     <resource>src/main/webapp/WEB-INF/web.xml</resource>
+     <filtering>false</filtering>
+  </resources>
+</archetype>
