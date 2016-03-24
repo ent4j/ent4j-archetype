@@ -1,0 +1,9 @@
+<archetype>
+  <id>maven-archetype-sample</id>
+  <sources>
+    <source>src/main/java/MyJasperGenerator.java</source>
+    </sources>
+  <resources>
+     <resource>src/main/resources/fonts/ipaexm.xml</resource>
+  </resources>
+</archetype>
