@@ -17,8 +17,10 @@
   </build>
  -->
   <modules>
-  	<module>../ent4j-archetype-batch</module>
+  	
   	<module>../ent4j-archetype-desktop</module>
   	<module>../ent4j-archetype-print</module>
+  	<module>../ent4j-archetype-batch-javase</module>
+  	<module>../ent4j-archetype-batch-war</module>
   </modules>
 </project>

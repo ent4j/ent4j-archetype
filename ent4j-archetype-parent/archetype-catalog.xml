@@ -4,7 +4,13 @@
       <groupId>org.ent4j.archetype</groupId>
       <artifactId>ent4j-archetype-batch-war</artifactId>
       <version>0.1.0</version>
-      <description>Blank Project for Batch application</description>
+      <description>Blank Project for Batch application (war type)</description>
+    </archetype>
+    <archetype>
+      <groupId>org.ent4j.archetype</groupId>
+      <artifactId>ent4j-archetype-batch-javase</artifactId>
+      <version>0.1.0</version>
+      <description>Blank Project for Batch application on javase</description>
     </archetype>
     <archetype>
       <groupId>org.ent4j.archetype</groupId>
