@@ -2,7 +2,7 @@
   <archetypes>
     <archetype>
       <groupId>org.ent4j.archetype</groupId>
-      <artifactId>ent4j-archetype-batch</artifactId>
+      <artifactId>ent4j-archetype-batch-war</artifactId>
       <version>0.1.0</version>
       <description>Blank Project for Batch application</description>
     </archetype>
