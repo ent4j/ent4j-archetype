@@ -6,7 +6,8 @@
   <resources>
      <resource>src/main/resources/META-INF/batch-jobs/SimpleBatch.xml</resource>
      <resource>src/main/resources/META-INF/persistence.xml</resource>
-     <resource>src/main/webapp/WEB-INF/web.xml</resource>
+     <resource>src/main/resources/META-INF/batch.xml</resource>
+     <resource>src/main/assembly/descriptor-bin.xml</resource>
      <filtering>false</filtering>
   </resources>
 </archetype>
