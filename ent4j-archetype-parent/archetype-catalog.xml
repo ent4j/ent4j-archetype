@@ -3,7 +3,7 @@
     <archetype>
       <groupId>org.ent4j.archetype</groupId>
       <artifactId>ent4j-archetype-batch-war</artifactId>
-      <version>0.1.0</version>
+      <version>0.2.0</version>
       <description>Blank Project for Batch application (war type)</description>
     </archetype>
     <archetype>
@@ -15,13 +15,13 @@
     <archetype>
       <groupId>org.ent4j.archetype</groupId>
       <artifactId>ent4j-archetype-desktop</artifactId>
-      <version>0.1.0</version>
+      <version>0.2.0</version>
       <description>Blank Project for Desktop application</description>
     </archetype>
     <archetype>
       <groupId>org.ent4j.archetype</groupId>
       <artifactId>ent4j-archetype-print</artifactId>
-      <version>0.1.0</version>
+      <version>0.2.0</version>
       <description>Blank Project for Report</description>
     </archetype>
   </archetypes>

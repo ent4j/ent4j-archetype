@@ -18,3 +18,23 @@ gpg: signing failed: 秘密鍵が得られません
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-gpg-plugin:1.6:sign (sign-artifacts) on project ent4j-archetype-print: Exit code: 2 -> [Help 1]
 
 need to gpg --gen-key
+
+# setup workspace for eclipse
+ln -s /home/jboss/git/ent4j-archetype/ent4j-archetype-parent/settings.xml settings.xml
+
+ln -s /home/jboss/git/ent4j-archetype/ent4j-archetype-parent/archetype-catalog.xml archetype-catalog.xml
+
+# Generate print applicaton from archetype
+Maven-> Run configration -> Main tab
+
+## Base Directory
+${workspace_loc}
+
+## Goals
+archetype:generate -DarchetypeGroupId=org.ent4j.archetype -DarchetypeArtifactId=ent4j-archetype-print -DarchetypeVersion=0.1.0 -DinteractiveMode=false -DgroupId=com.mycompany.print -DartifactId=my-print2 -Dpackage=com.mycompany.print -Dversion=1.0.0-SNAPSHOT
+ 
+### Import Maven Project
+import and build and go
+
+### for batch war
+archetype:generate -DarchetypeGroupId=org.ent4j.archetype -DarchetypeArtifactId=ent4j-archetype-batch-war -DarchetypeVersion=0.2.0 -DinteractiveMode=false -DgroupId=com.mycompany.print -DartifactId=my-batchwar1 -Dpackage=com.mycompany.print -Dversion=1.0.0-SNAPSHOT

@@ -5,10 +5,10 @@
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
   <servers>
     <server>
-      <id>bintray-XXXXXXXX-maven</id>
-      <username>XXXXXXXX</username>
+      <id>bintray-banz-ghb-maven</id>
+      <username>banz-ghb</username>
       <!-- insert API key, not password -->
-      <password>****************************************</password>
+      <password>207ea1b6a93eeda0a4a26fd47d46061cc49dd071</password>
     </server>
   </servers>
   <!--
