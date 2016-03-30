@@ -17,7 +17,7 @@
   <parent>
   	<relativePath>../ent4j-archetype-parent</relativePath>
   	<artifactId>ent4j-archetype-parent</artifactId>
-  	<version>0.1.0</version>
+  	<version>0.2.0</version>
   	<groupId>org.ent4j.archetype</groupId>
   </parent>
 </project>
