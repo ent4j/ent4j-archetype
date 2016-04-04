@@ -14,6 +14,8 @@ public class SimpleBatchlet implements Batchlet {
 	@Override
 	public String process() throws Exception {
 		log.info("SimpleBatchlet started...");
+		Thread.sleep(5000);
+		log.info("SimpleBatchlet2 ended...");
 		return "COMPLETED";
 	}
 
